@@ -30,7 +30,7 @@ const Main = () => {
           <img src={HeroImage} className="" alt="Homem segurando uma câmera" />
         </div>
       </section>
-      <section className="h-[492px] flex my-12 flex-col justify-between">
+      <section className="h-[492px] flex mb-32 flex-col justify-between">
         <SectionTitle title="Countries" />
         <p className="max-w-[520px] text-primary-gray">
           BeesTravel offers great deals for you. You can easily travel and
@@ -45,11 +45,11 @@ const Main = () => {
           <CountryImage country="Germany" imgSrc={GermanyImage} />
         </div>
       </section>
-      <section className="flex justify-between items-endmy-16">
+      <section className="flex justify-between mb-32 items-endmy-16">
         <div>
           <DestinationImage />
         </div>
-        <div className="flex flex-col justify-around  max-w-[538px] h-[514px] ">
+        <div className="flex flex-col justify-around max-w-[538px] h-[514px] ">
           <strong className="text-primary-orange text-xl">
             Destination Points
           </strong>
