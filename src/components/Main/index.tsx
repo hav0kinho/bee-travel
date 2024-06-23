@@ -10,7 +10,7 @@ import NetherlandsImage from "../../assets/imagens/netherlands.png";
 import GermanyImage from "../../assets/imagens/germany.png";
 import DestinationCard from "../DestinationCard";
 import SectionTitle from "../SectionTitle";
-import StoriesMuseumImage from "../../assets/imagens/stories-museum.png";
+import DestinationImage from "../DestinationImage";
 
 const Main = () => {
   return (
@@ -45,11 +45,11 @@ const Main = () => {
           <CountryImage country="Germany" imgSrc={GermanyImage} />
         </div>
       </section>
-      <section className="h-[603px] flex my-12">
+      <section className="flex justify-between items-endmy-16">
         <div>
-          <img src={StoriesMuseumImage} alt="Arte de Museu" />
+          <DestinationImage />
         </div>
-        <div>
+        <div className="flex flex-col justify-around  max-w-[538px] h-[514px] ">
           <strong className="text-primary-orange text-xl">
             Destination Points
           </strong>
