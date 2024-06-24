@@ -11,6 +11,9 @@ import GermanyImage from "../../assets/imagens/germany.png";
 import DestinationCard from "../DestinationCard";
 import SectionTitle from "../SectionTitle";
 import DestinationImage from "../DestinationImage";
+import ManImage from "../../assets/imagens/man.jpg";
+import CircleImage from "../CircleImage";
+import StarSVG from "../../assets/Star.svg";
 
 const Main = () => {
   return (
@@ -45,7 +48,7 @@ const Main = () => {
           <CountryImage country="Germany" imgSrc={GermanyImage} />
         </div>
       </section>
-      <section className="flex justify-between mb-32 items-endmy-16">
+      <section className="flex justify-between mb-32">
         <div>
           <DestinationImage />
         </div>
@@ -65,6 +68,38 @@ const Main = () => {
             <DestinationCard title="Happy Customers" value="20k+" />
           </div>
         </div>
+      </section>
+      <section className="flex justify-between items-center mb-32">
+        <div className="max-w-[537px] ">
+          <SectionTitle title="What Customers Think About Us:" />
+          <div className="bg-primary-white text-primary-gray p-6 rounded-[14px] mt-7">
+            <p className="text-primary-gray mb-7">
+              BeeTravel helped to see great places with the great offers. The
+              company also assure you to refund your money anytime. Easy to
+              communicate easy to explore. Thank you.
+            </p>
+            <div className="flex flex-col justify-between w-[120px] h-[74px]">
+              <div className="flex">
+                <img src={StarSVG} alt="Estrela" />
+                <img src={StarSVG} alt="Estrela" />
+                <img src={StarSVG} alt="Estrela" />
+                <img src={StarSVG} alt="Estrela" />
+                <img src={StarSVG} alt="Estrela" />
+              </div>
+              <div>
+                <div>
+                  <span className="text-xl font-medium text-primary-black">
+                    Josh Stone
+                  </span>
+                </div>
+                <div>
+                  <span className="text-xs">Traveler</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <CircleImage image={ManImage} />
       </section>
     </main>
   );
