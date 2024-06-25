@@ -14,6 +14,7 @@ import DestinationImage from "../DestinationImage";
 import ManImage from "../../assets/imagens/man.jpg";
 import CircleImage from "../CircleImage";
 import StarSVG from "../../assets/Star.svg";
+import ContactEmail from "../ContactEmail";
 
 const Main = () => {
   return (
@@ -100,6 +101,17 @@ const Main = () => {
           </div>
         </div>
         <CircleImage image={ManImage} />
+      </section>
+      <section className="flex flex-col max-w-[924px] m-auto text-center">
+        <SectionTitle title="Contact With us to be informed about news" />
+        <div className="max-w-[647px] mt-10 mx-auto">
+          <span className="text-[28px] text-primary-gray">
+            Recieve latest news, update, and many other things every week.{" "}
+          </span>
+        </div>
+        <div className="mt-10">
+          <ContactEmail />
+        </div>
       </section>
     </main>
   );
