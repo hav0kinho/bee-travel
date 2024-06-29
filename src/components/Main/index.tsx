@@ -39,7 +39,7 @@ const Main = () => {
       </section>
       <section
         id="countries"
-        className="h-[492px] flex mb-32 flex-col justify-between max-sm:text-center max-sm:items-center max-sm:mb-16 max-sm:justify-normal"
+        className="h-[492px] flex mb-32 flex-col justify-between max-sm:text-center max-sm:items-center max-sm:mb-16 max-sm:justify-normal max-sm:h-auto"
       >
         <SectionTitle title="Countries" />
         <p className="max-w-[520px] text-primary-gray max-sm:text-md max-sm:my-6">
@@ -55,11 +55,14 @@ const Main = () => {
           <CountryImage country="Germany" imgSrc={GermanyImage} />
         </div>
       </section>
-      <section id="features" className="flex justify-between mb-32">
-        <div>
+      <section
+        id="features"
+        className="flex justify-between mb-32 max-sm:flex-col-reverse"
+      >
+        <div className="">
           <DestinationImage />
         </div>
-        <div className="flex flex-col justify-around max-w-[538px] h-[514px] ">
+        <div className="flex flex-col justify-around max-w-[538px] h-[514px] max-sm:h-auto ">
           <strong className="text-primary-orange text-xl">
             Destination Points
           </strong>
@@ -69,7 +72,7 @@ const Main = () => {
             with all outdoor destinations in the world as our specialties. Start
             your adventure now! Nature has already called you!
           </p>
-          <div className="flex justify-between">
+          <div className="flex justify-between max-sm:flex-wrap">
             <DestinationCard title="European Contries" value="10+" />
             <DestinationCard title="Worldwide Offices" value="40+" />
             <DestinationCard title="Happy Customers" value="20k+" />
