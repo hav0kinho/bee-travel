@@ -19,7 +19,7 @@ import ContactEmail from "../ContactEmail";
 const Main = () => {
   return (
     <main className="my-12 ">
-      <section className="flex my-12 justify-between h-[598px] ">
+      <section id="home" className="flex my-12 justify-between h-[598px] ">
         <div className="w-[577px]">
           <h1 className="text-[84px] font-bold leading-none text-primary-black">
             Explore the Best Place Now
@@ -34,7 +34,10 @@ const Main = () => {
           <img src={HeroImage} className="" alt="Homem segurando uma câmera" />
         </div>
       </section>
-      <section className="h-[492px] flex mb-32 flex-col justify-between">
+      <section
+        id="countries"
+        className="h-[492px] flex mb-32 flex-col justify-between"
+      >
         <SectionTitle title="Countries" />
         <p className="max-w-[520px] text-primary-gray">
           BeesTravel offers great deals for you. You can easily travel and
@@ -49,7 +52,7 @@ const Main = () => {
           <CountryImage country="Germany" imgSrc={GermanyImage} />
         </div>
       </section>
-      <section className="flex justify-between mb-32">
+      <section id="features" className="flex justify-between mb-32">
         <div>
           <DestinationImage />
         </div>
@@ -70,7 +73,10 @@ const Main = () => {
           </div>
         </div>
       </section>
-      <section className="flex justify-between items-center mb-32">
+      <section
+        id="customers"
+        className="flex justify-between items-center mb-32"
+      >
         <div className="max-w-[537px] ">
           <SectionTitle title="What Customers Think About Us:" />
           <div className="bg-primary-white text-primary-gray p-6 rounded-[14px] mt-7">
@@ -102,7 +108,10 @@ const Main = () => {
         </div>
         <CircleImage image={ManImage} />
       </section>
-      <section className="flex flex-col max-w-[924px] m-auto text-center">
+      <section
+        id="contact"
+        className="flex flex-col max-w-[924px] m-auto text-center"
+      >
         <SectionTitle title="Contact With us to be informed about news" />
         <div className="max-w-[647px] mt-10 mx-auto">
           <span className="text-[28px] text-primary-gray">
