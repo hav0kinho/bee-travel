@@ -57,7 +57,7 @@ const Main = () => {
       </section>
       <section
         id="features"
-        className="flex justify-between mb-32 max-sm:flex-col-reverse"
+        className="flex justify-between mb-32 max-sm:flex-col-reverse max-sm:text-center max-sm:justify-center"
       >
         <div className="">
           <DestinationImage />
@@ -67,12 +67,12 @@ const Main = () => {
             Destination Points
           </strong>
           <SectionTitle title="Our Stories Have Adventures" />
-          <p className="text-primary-gray">
+          <p className="text-primary-gray max-sm:my-8">
             We are experienced in bringing adventures to stay their journey,
             with all outdoor destinations in the world as our specialties. Start
             your adventure now! Nature has already called you!
           </p>
-          <div className="flex justify-between max-sm:flex-wrap">
+          <div className="flex justify-between max-sm:flex-wrap max-sm:justify-center">
             <DestinationCard title="European Contries" value="10+" />
             <DestinationCard title="Worldwide Offices" value="40+" />
             <DestinationCard title="Happy Customers" value="20k+" />
