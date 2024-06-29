@@ -39,14 +39,14 @@ const Main = () => {
       </section>
       <section
         id="countries"
-        className="h-[492px] flex mb-32 flex-col justify-between"
+        className="h-[492px] flex mb-32 flex-col justify-between max-sm:text-center max-sm:items-center max-sm:mb-16 max-sm:justify-normal"
       >
         <SectionTitle title="Countries" />
-        <p className="max-w-[520px] text-primary-gray">
+        <p className="max-w-[520px] text-primary-gray max-sm:text-md max-sm:my-6">
           BeesTravel offers great deals for you. You can easily travel and
           explore over 10+ europen countries with one simple touch.
         </p>
-        <div className="flex justify-between">
+        <div className="flex justify-between flex-wrap max-sm:justify-around">
           <CountryImage country="Portugal" imgSrc={PortugalImage} />
           <CountryImage country="France" imgSrc={FranceImage} />
           <CountryImage country="Spain" imgSrc={SpainImage} />
