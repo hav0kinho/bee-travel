@@ -57,7 +57,7 @@ const Main = () => {
       </section>
       <section
         id="features"
-        className="flex justify-between mb-32 max-sm:flex-col-reverse max-sm:text-center max-sm:justify-center"
+        className="flex justify-between mb-32 max-sm:flex-col-reverse max-sm:text-center max-sm:justify-center max-sm:mb-16 max-sm:mx-2"
       >
         <div className="">
           <DestinationImage />
@@ -81,11 +81,11 @@ const Main = () => {
       </section>
       <section
         id="customers"
-        className="flex justify-between items-center mb-32"
+        className="flex justify-between items-center mb-32 max-sm:mb-16 max-sm:flex-col max-sm:text-center max-sm:mx-2"
       >
         <div className="max-w-[537px] ">
           <SectionTitle title="What Customers Think About Us:" />
-          <div className="bg-primary-white text-primary-gray p-6 rounded-[14px] mt-7">
+          <div className="bg-primary-white text-primary-gray p-6 rounded-[14px] mt-7 max-sm:text-start max-sm:mb-6">
             <p className="text-primary-gray mb-7">
               BeeTravel helped to see great places with the great offers. The
               company also assure you to refund your money anytime. Easy to
