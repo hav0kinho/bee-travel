@@ -18,19 +18,22 @@ import ContactEmail from "../ContactEmail";
 
 const Main = () => {
   return (
-    <main className="my-12 ">
-      <section id="home" className="flex my-12 justify-between h-[598px] ">
+    <main className="my-12">
+      <section
+        id="home"
+        className="flex border-2 my-12 justify-between h-[598px] max-sm:text-center max-sm:items-center max-sm:h-auto"
+      >
         <div className="w-[577px]">
-          <h1 className="text-[84px] font-bold leading-none text-primary-black">
+          <h1 className="text-[84px] font-bold leading-none text-primary-black max-sm:text-4xl">
             Explore the Best Place Now
           </h1>
-          <p className="my-6 text-primary-gray">
+          <p className="my-6 text-primary-gray max-sm:text-lg">
             Plan your schedule and start to explore world. BeeTravel helps you
             to get great offers. For more offer you can alway contact with us
           </p>
           <ContactButton />
         </div>
-        <div>
+        <div className="max-sm: hidden">
           <img src={HeroImage} className="" alt="Homem segurando uma câmera" />
         </div>
       </section>
