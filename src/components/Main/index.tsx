@@ -39,14 +39,14 @@ const Main = () => {
       </section>
       <section
         id="countries"
-        className="h-[492px] flex mb-32 flex-col justify-between max-sm:text-center max-sm:items-center max-sm:mb-16 max-sm:justify-normal max-sm:h-auto"
+        className="h-[492px] flex mb-32 flex-col justify-between max-md:text-center max-md:items-center max-sm:mb-16 max-sm:justify-normal max-md:h-auto"
       >
         <SectionTitle title="Countries" />
-        <p className="max-w-[520px] text-primary-gray max-sm:text-md max-sm:my-6">
+        <p className="max-w-[520px] text-primary-gray max-sm:text-md max-md:my-6">
           BeesTravel offers great deals for you. You can easily travel and
           explore over 10+ europen countries with one simple touch.
         </p>
-        <div className="flex justify-between flex-wrap max-sm:justify-around">
+        <div className="flex justify-between flex-wrap max-sm:justify-around max-md:justify-evenly">
           <CountryImage country="Portugal" imgSrc={PortugalImage} />
           <CountryImage country="France" imgSrc={FranceImage} />
           <CountryImage country="Spain" imgSrc={SpainImage} />
@@ -57,9 +57,9 @@ const Main = () => {
       </section>
       <section
         id="features"
-        className="flex justify-between mb-32 max-sm:flex-col-reverse max-sm:text-center max-sm:items-center max-sm:mb-16 max-sm:mx-2"
+        className="flex justify-between mb-32 max-md:flex-col-reverse max-md:text-center max-md:items-center max-sm:mb-16 max-sm:mx-2"
       >
-        <div className="max-sm:flex max-sm:justify-center">
+        <div className="max-md:flex max-md:justify-center">
           <DestinationImage />
         </div>
         <div className="flex flex-col justify-around max-w-[538px] h-[514px] max-sm:h-auto ">
