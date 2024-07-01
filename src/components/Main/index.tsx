@@ -116,12 +116,12 @@ const Main = () => {
       </section>
       <section
         id="contact"
-        className="flex flex-col max-w-[924px] m-auto text-center"
+        className="flex flex-col max-w-[924px] m-auto text-center mx-2"
       >
         <SectionTitle title="Contact With us to be informed about news" />
         <div className="max-w-[647px] mt-10 mx-auto">
           <span className="text-[28px] text-primary-gray">
-            Recieve latest news, update, and many other things every week.{" "}
+            Recieve latest news, update, and many other things every week.
           </span>
         </div>
         <div className="mt-10">
