@@ -59,7 +59,7 @@ const Main = () => {
         id="features"
         className="flex justify-between mb-32 max-sm:flex-col-reverse max-sm:text-center max-sm:justify-center max-sm:mb-16 max-sm:mx-2"
       >
-        <div className="">
+        <div className="max-sm:flex max-sm:justify-center">
           <DestinationImage />
         </div>
         <div className="flex flex-col justify-around max-w-[538px] h-[514px] max-sm:h-auto ">
