@@ -21,7 +21,7 @@ const Main = () => {
     <main className="my-12">
       <section
         id="home"
-        className="flex my-12 justify-between h-[598px] max-sm:text-center max-sm:items-center max-sm:h-auto max-sm:justify-center"
+        className="flex my-12 justify-between h-[598px] max-md:text-center max-md:items-center max-sm:h-auto max-md:justify-center"
       >
         <div className="w-[577px]">
           <h1 className="text-[84px] font-bold leading-none text-primary-black max-sm:text-4xl">
@@ -33,7 +33,7 @@ const Main = () => {
           </p>
           <ContactButton />
         </div>
-        <div className="max-sm:hidden">
+        <div className="max-md:hidden">
           <img src={HeroImage} className="" alt="Homem segurando uma câmera" />
         </div>
       </section>
