@@ -4,7 +4,7 @@ import PaperPlane from "../../assets/PaperPlane.svg";
 const ContactEmail = () => {
   return (
     <form>
-      <div className="flex text-center justify-center items-center max-sm:flex-col border-2 border-red-500">
+      <div className="flex text-center justify-center items-center max-sm:flex-">
         <input
           type="text"
           placeholder="Enter your email address"
