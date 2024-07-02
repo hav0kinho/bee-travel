@@ -116,11 +116,7 @@ const Main = () => {
       </section>
       <section
         id="contact"
-<<<<<<< HEAD
         className="flex flex-col max-w-[924px] m-auto text-center mx-auto"
-=======
-        className="flex flex-col max-w-[924px] m-auto text-center mx-2"
->>>>>>> e251acf98d4fdbd96909b4915772a595d2d2ef08
       >
         <SectionTitle title="Contact With us to be informed about news" />
         <div className="max-w-[647px] mt-10 mx-auto">
