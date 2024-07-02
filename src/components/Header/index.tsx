@@ -11,8 +11,12 @@ const Header = () => {
   return (
     <header className="flex w-full items-center justify-between h-[54px]">
       <nav className="flex w-[550px] items-center justify-between">
-        <img src={logo} alt="Logo BeeTravel" className=" h-[20px]" />
-        <ul className="flex items-center gap-8">
+        <img
+          src={logo}
+          alt="Logo BeeTravel"
+          className=" h-[20px] max-sm:h-auto"
+        />
+        <ul className="flex items-center gap-8 max-sm:hidden max-md:gap-2">
           <li>
             <a onClick={scrollToHome} className="text-primary-orange">
               Home

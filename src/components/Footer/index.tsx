@@ -85,20 +85,22 @@ const linkList: LinkListProps[] = [
 const Footer = () => {
   return (
     <footer className="flex justify-between mt-48">
-      <div className="flex flex-col justify-between max-w-32">
-        <div>
+      <div className="flex flex-col justify-between max-w-32 max-sm:max-w-none max-sm:w-full">
+        <div className="max-sm:flex max-sm:justify-between">
           <img src={Logo} alt="Logo da Bee Travel" />
-          <div className="py-7">
-            <span className="text-primary-gray">Top 3 in the World</span>
+          <div className="py-7 max-sm:p-0">
+            <span className="text-primary-gray max-sm:text-xl">
+              Top 3 in the World
+            </span>
           </div>
         </div>
-        <div className="flex justify-between">
+        <div className="max-sm:flex max-sm:justify-between max-sm:mt-3">
           <SocialButton logo="facebook" />
           <SocialButton logo="instagram" />
           <SocialButton logo="twitter" />
         </div>
       </div>
-      <nav className="w-full max-w-3xl">
+      <nav className="w-full max-w-3xl max-sm:hidden">
         <FooterLinkLists linkLists={linkList} />
       </nav>
     </footer>

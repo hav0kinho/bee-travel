@@ -7,7 +7,7 @@ type Props = {
 
 const DestinationCard = ({ value, title }: Props) => {
   return (
-    <div className="flex flex-col p-5 max-w-[166px] max-h-[178px] bg-white rounded-[14px]">
+    <div className="flex flex-col p-5 max-w-[166px] max-h-[178px] bg-white rounded-[14px] max-sm:m-1">
       <span className="text-[46px] font-semibold text-primary-orange">
         {value}
       </span>
