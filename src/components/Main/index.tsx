@@ -57,7 +57,7 @@ const Main = () => {
       </section>
       <section
         id="features"
-        className="flex justify-between mb-32 border-2 max-lg:flex-col max-lg:items-center max-md:flex-col-reverse max-md:text-center max-md:items-center max-sm:mb-16 max-sm:mx-2"
+        className="flex justify-between mb-32 max-lg:flex-col max-lg:items-center max-md:flex-col-reverse max-md:text-center max-md:items-center max-sm:mb-16 max-sm:mx-2"
       >
         <div className="max-md:flex max-md:justify-center">
           <DestinationImage />
