@@ -57,12 +57,12 @@ const Main = () => {
       </section>
       <section
         id="features"
-        className="flex justify-between mb-32 max-md:flex-col-reverse max-md:text-center max-md:items-center max-sm:mb-16 max-sm:mx-2"
+        className="flex justify-between mb-32 border-2 max-lg:flex-col max-lg:items-center max-md:flex-col-reverse max-md:text-center max-md:items-center max-sm:mb-16 max-sm:mx-2"
       >
         <div className="max-md:flex max-md:justify-center">
           <DestinationImage />
         </div>
-        <div className="flex flex-col justify-around max-w-[538px] h-[514px] max-sm:h-auto ">
+        <div className="flex flex-col justify-around max-w-[538px] h-[514px] max-lg:max-w-[850px] max-sm:h-auto ">
           <strong className="text-primary-orange text-xl">
             Destination Points
           </strong>
@@ -116,7 +116,7 @@ const Main = () => {
       </section>
       <section
         id="contact"
-        className="flex flex-col max-w-[924px] m-auto text-center mx-2"
+        className="flex flex-col max-w-[924px] m-auto text-center mx-auto"
       >
         <SectionTitle title="Contact With us to be informed about news" />
         <div className="max-w-[647px] mt-10 mx-auto">
