@@ -13,13 +13,13 @@ const ContactButton = ({ goto = "contact" }: Props) => {
     <button
       onClick={scrollToId}
       type="button"
-      className="text-primary-orange border-2 border-primary-orange rounded-full w-[184px] h-[54px]"
+      className="group text-primary-orange border-2 border-primary-orange rounded-full w-[184px] h-[54px] hover:bg-primary-orange hover:text-white hover:transition-all hover:duration-300"
     >
-      Contact Now
+      <span>Contact Now</span>
       <img
         src={paperPlaneIcon}
         alt="Icone Paper Plane"
-        className="inline ml-2"
+        className="group-hover:hidden hover:duration-0 inline ml-2"
       />
     </button>
   );
