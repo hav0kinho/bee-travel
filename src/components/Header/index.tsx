@@ -16,7 +16,7 @@ const Header = () => {
           alt="Logo BeeTravel"
           className=" h-[20px] max-sm:h-auto"
         />
-        <ul className="flex items-center gap-8 max-sm:hidden max-md:gap-2">
+        <ul className="flex items-center gap-8 max-sm:hidden max-md:gap-2 [&>li>a]:cursor-pointer">
           <li>
             <a onClick={scrollToHome} className="text-primary-orange">
               Home
