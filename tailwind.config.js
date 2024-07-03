@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "primary-light": "#FAF8ED",
         "primary-white": "#FFFFFF",
+        "primary-orange-hover": "#eb380c",
         "primary-orange": "#F66F4D",
         "primary-blue": "#2E476B",
         "primary-gray": "#5B5F62",
