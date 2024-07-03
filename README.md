@@ -6,4 +6,4 @@ Este projeto é uma aplicação front-end que foi desenvolvida respeitando um pr
 
 [Figma](https://www.figma.com/community/file/1225034432662164060)
 
-## Desenvolvendo Responsividade
+## Desenvolvimento concluído
